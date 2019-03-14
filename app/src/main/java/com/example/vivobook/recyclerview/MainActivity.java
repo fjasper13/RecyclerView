@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
             mWordList.clear();
             for(int i=0;i<20;i++){
                 mWordList.add("Word "+i);
+                
             }
             mRecyclerView.getAdapter().notifyDataSetChanged();
             return true;
