@@ -53,7 +53,7 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
         public void onClick(View v) {
             int mPosition = getLayoutPosition();
             String element = mWordList.get(mPosition);
-            mWordList.set(mPosition,"Clicked"+element);
+            mWordList.set(mPosition,"Clicked! "+element);
             mAdapter.notifyDataSetChanged();
 
         }
